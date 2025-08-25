@@ -1,8 +1,5 @@
 from pathlib import Path
 from environs import Env
-from dotenv import load_dotenv
-
-load_dotenv()
 
 env = Env()
 env.read_env()
